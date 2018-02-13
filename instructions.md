@@ -4,7 +4,7 @@ Make sure to register the provider inside `start/app.js` file.
 
 ```js
 const providers = [
-  '@adonisjs/drive/providers/StripeProvider'
+  'adonis-stripe/providers/StripeProvider'
 ]
 ```
 
@@ -21,5 +21,5 @@ const customer = await Stripe.customers.create(
 
 ## Env variables
 
-The `Stripe` driver relies on sinle Env variable: `STRIPE_KEY=`.
+The `Stripe` driver relies on sinle Env variable: `STRIPE_API_KEY=`.
 It can be eather test or production, depending on your Stripe Dashboard configurations.
