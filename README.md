@@ -1,4 +1,4 @@
-# Adonis Stripe ![alt text](https://stripe.com/favicon.ico)
+# Adonis Stripe <img src="https://stripe.com/favicon.ico" alt="Stripe icon" width="25px" height="25px">
 
 This servise provider meks it easier to integrate and to work with Stripe official library.
 
