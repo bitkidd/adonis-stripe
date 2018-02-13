@@ -1,8 +1,8 @@
 # Adonis Stripe <img src="https://stripe.com/favicon.ico" alt="Stripe icon" width="25px" height="25px">
 
-This servise provider meks it easier to integrate and to work with Stripe official library.
+This service provider makes it easier to integrate and to work with Stripe official library.
 
-It is built on top of [stripe-node](https://github.com/stripe/stripe-node) and proxies all the methods keeping them 100% original.
+It is built on top of [stripe-node](https://github.com/stripe/stripe-node) and proxies all the methods keeping them 100% original. So you can follow official Stripe documentation.
 
 <img src="http://res.cloudinary.com/adonisjs/image/upload/q_100/v1497112678/adonis-purple_pzkmzt.svg" width="200px" align="right" hspace="30px" vspace="140px">
 
