@@ -1,6 +1,6 @@
 {
   "name": "adonis-stripe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Stripe service provider for Adonis",
   "main": "index.js",
   "scripts": {
