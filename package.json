@@ -1,6 +1,6 @@
 {
   "name": "adonis-stripe",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Stripe service provider for Adonis",
   "main": "index.js",
   "scripts": {
@@ -20,18 +20,18 @@
   "author": "keeross",
   "license": "MIT",
   "dependencies": {
-    "stripe": "^5.4.0"
+    "stripe": "^6.8.0"
   },
   "devDependencies": {
-    "@adonisjs/fold": "^4.0.7",
+    "@adonisjs/fold": "^4.0.9",
     "@adonisjs/sink": "^1.0.16",
-    "coveralls": "^3.0.0",
+    "coveralls": "^3.0.2",
     "cz-conventional-changelog": "^2.1.0",
     "japa": "^1.0.6",
     "japa-cli": "^1.0.1",
-    "nyc": "^11.4.1",
-    "semver": "^5.5.0",
-    "standard": "^10.0.3"
+    "nyc": "^13.0.1",
+    "semver": "^5.5.1",
+    "standard": "^12.0.0"
   },
   "standard": {
     "globals": [
