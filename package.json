@@ -1,6 +1,6 @@
 {
   "name": "adonis-stripe",
-  "version": "1.0.6",
+  "version": "7.8.0",
   "description": "Stripe service provider for Adonis",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "author": "keeross",
   "license": "MIT",
   "dependencies": {
-    "stripe": "^6.26.0"
+    "stripe": "^7.8.0"
   },
   "devDependencies": {
     "@adonisjs/fold": "^4.0.9",
