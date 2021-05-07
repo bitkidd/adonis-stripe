@@ -23,7 +23,7 @@
     "stripe": "^8.41.0"
   },
   "devDependencies": {
-    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/fold": "^8.1.2",
     "@adonisjs/sink": "^1.0.17",
     "coveralls": "^3.0.11",
     "cz-conventional-changelog": "^3.1.0",
