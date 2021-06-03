@@ -4,7 +4,7 @@
 [![npm-image]][npm-url] [![license-image]][license-url] [![typescript-image]][typescript-url]
 
 This service provider makes it easier to integrate and to work with Stripe official library.
-It is compatible with `Adonis Framework v5.x.`
+It is compatible with `Adonis Framework v5.x.` and `Adonis Framework v4.x.` via legacy tag.
 
 It is built on top of [stripe-node](https://github.com/stripe/stripe-node) and proxies all the methods keeping them 100% original. So you can follow official Stripe documentation.
 
@@ -12,7 +12,7 @@ Package will follow `stripe-node` versioning to keep you synced.
 
 ## Installation
 
-### To install the packaga for `Adonix v5.x` run:
+### To install package for `Adonis v5.x` run:
 ```
 npm install @bitkidd/adonis-stripe
 # or
