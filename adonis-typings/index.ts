@@ -1,5 +1,5 @@
 /*
- * @bitkidd/adonis-imgix
+ * @bitkidd/adonis-stripe
  *
  * (c) Chirill Ceban <cc@bitkidd.dev>
  *
