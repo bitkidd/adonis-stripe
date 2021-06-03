@@ -1,6 +1,6 @@
-# Adonis Stripe <img src="https://stripe.com/favicon.ico" alt="Stripe icon" width="25px" height="25px">
+# Adonis v4.x - Stripe
 
-This service provider makes it easier to integrate and to work with Stripe official library.
+This service provider makes it easier to integrate and to work with Stripe official library with Adonis Framework v4.x
 
 It is built on top of [stripe-node](https://github.com/stripe/stripe-node) and proxies all the methods keeping them 100% original. So you can follow official Stripe documentation.
 
