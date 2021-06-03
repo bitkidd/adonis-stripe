@@ -21,7 +21,7 @@ jobs:
     - name: npm ci, publish
       run: |
         npm ci
-        NODE_ENV=production npm publish --access public
+        NODE_ENV=production npm publish --access public --tag legacy
       env:
         # Add to github settings/secrets
         NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
