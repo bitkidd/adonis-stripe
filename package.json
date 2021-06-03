@@ -2,13 +2,18 @@
   "name": "@bitkidd/adonis-stripe",
   "version": "8.151.0",
   "description": "A Stripe provider for Adonis v4.x and v5.x",
-  "main": "index.js",
-  "dependencies": {},
+  "types": "build/adonis-typings/index.d.ts",
+  "main": "build/providers/StripeProvider.js",
+  "dependencies": {
+    "stripe": "^8.151.0"
+  },
   "devDependencies": {
+    "@adonisjs/core": "^5.1.8",
     "@adonisjs/mrm-preset": "^4.1.0",
     "@adonisjs/require-ts": "^2.0.5",
     "@types/node": "^15.9.0",
     "commitizen": "^4.2.4",
+    "copyfiles": "^2.4.1",
     "cz-conventional-changelog": "^3.3.0",
     "del-cli": "^3.0.1",
     "doctoc": "^2.0.0",
@@ -29,7 +34,8 @@
     "pretest": "npm run lint",
     "test": "node japaFile.js",
     "clean": "del build",
-    "compile": "npm run lint && npm run clean && tsc",
+    "compile": "npm run lint && npm run clean && npm run copyfiles && tsc",
+    "copyfiles": "copyfiles \"templates/*.txt\" \"instructions.md\" build",
     "build": "npm run compile",
     "prepublishOnly": "npm run build",
     "lint": "eslint . --ext=.ts",
@@ -55,9 +61,11 @@
   },
   "homepage": "https://github.com/bitkidd/adonis-stripe#readme",
   "files": [
-    "build/src",
-    "build/index.d.ts",
-    "build/index.js"
+    "build/adonis-typings",
+    "build/providers",
+    "build/templates",
+    "build/instructions.js",
+    "build/instructions.md"
   ],
   "config": {
     "commitizen": {
@@ -67,5 +75,20 @@
   "np": {
     "contents": ".",
     "anyBranch": false
+  },
+  "adonisjs": {
+    "instructionsMd": "./build/instructions.md",
+    "types": "@bitkidd/adonis-stripe",
+    "providers": [
+      "@bitkidd/adonis-stripe"
+    ],
+    "templates": {
+      "config": [
+        {
+          "src": "stripe-config.txt",
+          "dest": "stripe"
+        }
+      ]
+    }
   }
 }
