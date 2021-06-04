@@ -1,6 +1,6 @@
 {
   "name": "@bitkidd/adonis-stripe",
-  "version": "8.151.0",
+  "version": "8.151.1",
   "description": "A Stripe provider for Adonis v4.x and v5.x",
   "types": "build/adonis-typings/index.d.ts",
   "main": "build/providers/StripeProvider.js",
