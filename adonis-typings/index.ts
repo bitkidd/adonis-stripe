@@ -8,9 +8,9 @@
  */
 
 declare module '@ioc:Adonis/Addons/Stripe' {
-  import Stripe from 'stripe'
+  import { default as StripeType } from 'stripe'
 
-  interface StripeOptions extends Omit<Stripe.StripeConfig, 'apiVersion'> {
+  interface StripeOptions extends Omit<StripeType.StripeConfig, 'apiVersion'> {
     apiVersion: string | null
   }
 
@@ -19,7 +19,7 @@ declare module '@ioc:Adonis/Addons/Stripe' {
     options: StripeOptions
   }
 
-  const stripe: Stripe
+  const Stripe: StripeType
 
-  export default stripe
+  export default Stripe
 }

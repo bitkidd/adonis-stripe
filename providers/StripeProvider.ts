@@ -15,9 +15,9 @@ export default class StripeProvider {
 
   public async register() {
     this.app.container.singleton('Adonis/Addons/Stripe', () => {
-      const { secretKey, options } = this.app.container
-        .resolveBinding('Adonis/Core/Config')
-        .get('stripe', {})
+      const {
+        stripe: { secretKey, options },
+      } = this.app.container.resolveBinding('Adonis/Core/Config').get('stripe', {})
 
       return new Stripe(secretKey, options)
     })
