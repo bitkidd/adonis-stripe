@@ -20,7 +20,7 @@
   "author": "keeross",
   "license": "MIT",
   "dependencies": {
-    "stripe": "^8.151.0"
+    "stripe": "^8.168.0"
   },
   "devDependencies": {
     "@adonisjs/fold": "^4.0.9",
