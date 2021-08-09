@@ -19,6 +19,8 @@ declare module '@ioc:Adonis/Addons/Stripe' {
     options: StripeOptions
   }
 
+  export import StripeContract = StripeType
+
   const Stripe: StripeType
 
   export default Stripe
